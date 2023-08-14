@@ -1,0 +1,271 @@
+/* lien des polices d'écriture */
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@500&family=Cormorant+Garamond:wght@700&family=Lobster&family=Noto+Sans&family=Noto+Sans+Display:wght@900&family=Oswald:wght@300&family=Roboto:ital,wght@0,300;1,300;1,400&display=swap'); /* police body */
+
+ @import url('https://fonts.googleapis.com/css2? family= Caveat:wght@500 & family= Comme:wght@500 & family= Cormorant+Garamond:ital,wght@1,300;1,600 & family= Homard & family= Noto+Sans & family= Noto+Sans+Display:wght@900 & family= Oswald:wght@300 & family= Roboto:ital,wght@0,300;1,300;1,400 & display=swap'); /* police h2 h3 */
+
+/* lien des polices d'écriture */
+
+
+/* code des polices d'écriture */
+body{
+  font-family: 'Comme', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans Display', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.logo{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2, h3{
+ font-family: 'Caveat', cursive;
+font-family: 'Comme', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans Display', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+/* fin code des polices d'écriture */
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+}
+p{
+  color: white;
+}
+body{
+  
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2)50%, rgba(0, 0, 0, 0.2)50%), url(int.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar{
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 3px solid pink;
+  padding-bottom: 20px;
+}
+.navbar ul li{
+ display: inline-block;
+ margin: 10px;
+ padding: 5px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  border: 2px solid blue;
+  border-radius: 5px;
+  background-color: black;
+  transition: 0.1s;
+}
+.navbar ul li a:hover{
+  background-color: orange;
+  color: white;
+  border: 2px solid white;
+}
+
+.logo{
+  color: orange;
+  font-size: 35px;
+  padding-left: 20px;
+  padding-top: 15px;
+  margin-top: -10px;
+}
+h2{
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  margin: 15px;
+}
+h3{
+  text-align: center;
+  color: orange;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* code article */
+article{
+  max-width: 900px;
+}
+.flotan{
+  float: left;
+  margin: 10px;
+}
+.enbas{
+  clear: both;
+  margin: 10px;
+}
+img{
+  height: 100;
+  width: 25%;
+  border-radius: 5px;
+}
+/* fin code article */
+
+section{
+  display: flex;
+}
+/* code la-une */
+.la-une{
+  margin: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 5px pink;
+  border-radius: 3px;
+}
+.droite{
+  float: right;
+}
+/* fin code la-une */
+
+
+/* code page service.html */
+.carte{
+  text-align: center;
+  margin-top: 80px;
+}
+#carte{
+  width: 50%;
+  height: 100;
+}
+/* fin code service.html */
+
+
+/* page Contact.html */
+form{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px;
+}
+.texte1, .texte2{
+  color: black;
+}
+.texte1{
+  text-align: center;
+}
+.une{
+  text-align: center;
+  color: pink;
+}
+input{
+  margin: 5px;
+  padding: 3px;
+  outline: none;
+}
+button{
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 4px;
+  margin: 10px;
+}
+::placeholder{
+  color: orange;
+}
+span{
+text-decoration: underline;
+}
+/* fin code de la page contact.html */
+
+
+/* code footer */
+.fo{
+  margin-top: 10px;
+}
+
+/*code pour les icônes*/
+.icone{
+  display: flex;
+}
+.icone p{
+  margin: 10px;
+}
+.icone p i{
+   margin-top: -80px;
+}
+/*fin code pour les icônes*/
+
+footer{
+  display: flex;
+  border: 2px solid red;
+  padding: 5%;
+  margin-top: 20px;
+}
+a{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 3px;
+}
+a:hover{
+  background-color: orange;
+  color: white;
+  transition: 0.1s;
+}
+.foot1{
+  border-right-width: 10%;
+  border-right: 2px solid pink;
+  text-align: center;
+  padding-right: 10px;
+}
+.foot1-1{
+  color: orange;
+}
+.sc{
+  background-color: pink;
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+}
+.foot2, .foot3{
+  padding: 10px;
+  border-right: 2px solid pink;
+  text-align: center;
+  color: white;
+}
+.foot4{
+  text-align: center;
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-around;
+}
+/* fin code footer */
+
+/* média queries code */
+@media screen and (max-width: 700px){
+  section{
+    display: block;;
+  }
+  footer{
+    display: block;
+    padding: 10%;
+    margin-top: px;
+    margin: 20px;
+  }
+  .foot1, .foot2, .foot3{
+    border-right: none;
+    border-bottom: 2px solid pink;
+    padding-bottom: 30px;
+  }
+}
+/* fin code média queries */
